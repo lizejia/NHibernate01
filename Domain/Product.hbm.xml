@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--其中xmlns为xml命名空间-->
 <hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Domain" namespace="Domain">
   <class name="Product" table="T_Product" lazy="true" >
     <id name="ID" column="ID" type="int" >

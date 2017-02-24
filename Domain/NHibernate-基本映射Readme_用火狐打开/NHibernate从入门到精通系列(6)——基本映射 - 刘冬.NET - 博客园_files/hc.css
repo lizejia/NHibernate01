@@ -1,0 +1,243 @@
+#dictHcBtn{
+	position:absolute;
+	z-index:999999990;
+	margin:0;
+	border:1px solid #999;
+	padding:1px 5px 2px;
+	background:#FEF59D;
+	font-size:12px;
+	line-height:16px;
+	color:#000;
+	cursor: pointer;
+	-moz-box-shadow:3px 3px 3px #ccc;
+	-webkit-box-shadow:3px 3px 3px #ccc;
+	box-shadow:3px 3px 3px #ccc;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color='#cccccc')";
+	*filter: progid:DXImageTransform.Microsoft.Shadow(Strength=3, Direction=135, Color="#cccccc");
+}
+#dictHcBtnTop{
+	position:absolute;
+	z-index:999999991;
+	margin:0;
+	border:0;
+	padding:0;
+	width:10px;
+	height:10px;
+	background:url(btntop.gif) no-repeat;
+}
+#dictHc{
+	position:absolute;
+	z-index:999999990;
+	width:330px;
+	border:1px solid #B6E2F1;
+	color:#666666; 
+	font-family:tahoma;
+	font-size:12px;
+	background:#fff;
+	text-align:left;
+	-moz-box-shadow:0px 4px 12px #ccc;
+	-webkit-box-shadow:0px 4px 12px #ccc;
+	box-shadow:0px 4px 12px #ccc;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=6, Direction=135, Color='#cccccc')";
+	*filter: progid:DXImageTransform.Microsoft.Shadow(Strength=6, Direction=135, Color="#cccccc");
+}
+.dictHcDrag{
+	-moz-opacity:0.5;
+	opacity:0.5;	
+	-ms-filter:'alpha(opacity=50)' !important; 
+	*filter:alpha(opacity=50) !important;
+}
+#dictHcTop{
+	background:url(top_bg.gif);
+	padding:5px;
+	cursor:move;
+	user-selec:none;
+	-moz-user-selec:none;
+	-webkit-user-select:none;
+}
+#dictHcTitle{
+	display:block;
+	line-height:16px;
+	padding-left:20px;
+	background:url(icons1.gif) no-repeat 0 -90px;
+	font-weight:bold;
+	color:#3B6C9C
+}
+#dictHcTop div{
+	float:right;
+}
+#dictHcLock{
+	background-position:0 -44px;
+}
+#dictHcClose{
+	background-position:0 -20px;
+}
+#dictHcDragMask{
+	display:none;
+	position:absolute;
+	z-index:999999991;
+	top:26px;
+	margin:0;
+	padding:0;
+	width:330px;
+	height:247px;
+}
+#dictHcContent{
+	height:247px;
+	margin:0;
+	padding:0;
+}
+#dictHcBottom{
+	padding:2px 5px;
+	background-color:#EAF8FA;
+}
+#dictHcBottom div{
+	float:right;
+}
+#dictHcEnable{
+	background-position:3px -105px;
+}
+#dictHcSetting{
+	background-position:3px 2px;
+	border:1px solid #EAF8FA;
+	font-size:12px;
+}
+#dictHcSetting:hover{
+	text-decoration:none;
+}
+
+#dictHcSettingArea{
+	position:absolute;
+	z-index:999999991;
+	margin:0;
+	border:1px solid #A1D9ED;
+	padding:3px 8px 3px 5px;
+	background:#EAF8FA;
+	font-family:tahoma;
+	font-size:12px;
+	height:42px;
+}
+#dictHcSettingArea label{
+	display:block;
+	margin:0;padding:0;
+	color: #43A8D7;	
+}
+#dictHcSettingArea input{
+	vertical-align:middle;
+	margin:0 5px 0 0;
+	padding:0;
+	height:20px;
+}
+#dictHcCntLine{
+	display:none;
+	position:absolute;
+	z-index:999999992;
+	border-top:1px solid #EAF8FA;
+	width:48px;
+	left:0;
+	bottom:-1px;
+	*top:48px;
+}
+
+
+#dictHcClosetip{
+	display:none;
+	position:fixed;
+	right:10px;
+	bottom:10px;
+	*position:absolute;
+	*top:expression((document.compatMode?documentElement.scrollTop:document.body.scrollTop) + (document.compatMode?documentElement.offsetHeight:document.body.offsetHeight) - 35 + 'px');	
+	z-index:999999990;
+	border:1px solid #ccc;
+	padding:3px 5px;
+	*height:19px;
+	background:#EAF8FA;
+	font-size:12px;
+}
+*html{
+	background-image:url(about:blank);
+	background-attachment:fixed;
+}
+
+
+.dictHcBtn1{
+	display:inline-block;
+	width:16px;
+	height:16px;
+	background-image:url(icons1.gif);
+	cursor: pointer;
+}
+.dictHcBtn2{
+	display:inline-block;
+	padding:3px 3px 3px 21px;
+	height:16px;
+	line-height:16px;
+	background:url(icons1.gif) no-repeat;
+	color:#43A8D7;
+	text-decoration:none;
+	cursor: pointer;
+}
+.dictHcBtn2:hover{
+	text-decoration:underline;
+}
+/*******ver 1.0.1 **********************************************/
+/*更改部分样式和需求，by wws 2013.8.12*/
+#dictHcTitle{
+    display:block;
+    line-height:16px;
+    padding-left:25px;
+    background:url('hc_logo.png') no-repeat 0 0;
+    font-weight:normal;
+    color: #43A8D7;
+}
+#dictHcAd{
+    margin: 0 auto;
+    width: 314px;
+    padding: 8px 0;
+    border-top: 1px solid #efefef;
+    display: none;
+    color: #3b6c9c;
+}
+#dictHcAd a{
+    color: #3b6c9c;
+    text-decoration: none;
+}
+#dictHcAd a:hover{
+    text-decoration: underline;
+}
+#dictHcLoading{
+    position: absolute;
+    width: 312px;
+    height: 230px;
+    display: none;
+    padding-top:15px;
+    padding-left:16px;
+    background-color: #fff;
+    background-image: url("mid_bg.gif");
+    background-repeat:no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed;
+}
+#dictHcLoading h1{
+    font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+    color: #009944;;
+    display: inline;
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 14px;
+    word-break: normal;
+    word-wrap: break-word;
+    padding: 0;
+}
+#dictHcLoading #tipwrod{
+    padding-top: 12px;
+    color: #444444;
+}
+/*
+#dictHcClose{
+    transition: all 0.3s ease 0s;
+}
+#dictHcClose:hover{
+    transform: rotate(360deg);
+}
+*/

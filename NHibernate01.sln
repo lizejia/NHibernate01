@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateLifeCycle", "NHibernateLifeCycle\NHibernateLifeCycle.csproj", "{D7D2F70A-E0B2-4198-A5A0-E1F0E26100E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateLiftCycle_PersistentClassTest", "NHibernateLiftCycle_PersistentClassTest\NHibernateLiftCycle_PersistentClassTest.csproj", "{95378759-4DEF-4818-AA17-1A4823A3852D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D7D2F70A-E0B2-4198-A5A0-E1F0E26100E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7D2F70A-E0B2-4198-A5A0-E1F0E26100E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7D2F70A-E0B2-4198-A5A0-E1F0E26100E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95378759-4DEF-4818-AA17-1A4823A3852D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95378759-4DEF-4818-AA17-1A4823A3852D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95378759-4DEF-4818-AA17-1A4823A3852D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95378759-4DEF-4818-AA17-1A4823A3852D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

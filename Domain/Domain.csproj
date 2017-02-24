@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="NHibernate">
+      <HintPath>C:\Users\Administrator\Downloads\NHibernate-3.0.0.GA-bin\Required_Bins\NHibernate.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -47,6 +50,42 @@
     <EmbeddedResource Include="Product.hbm.xml">
       <SubType>Designer</SubType>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="NHibernate-基本映射Readme_用火狐打开\NHibernate从入门到精通系列%286%29——基本映射 - 刘冬.NET - 博客园.html" />
+    <Content Include="NHibernate-基本映射Readme_用火狐打开\NHibernate从入门到精通系列%286%29——基本映射 - 刘冬.NET - 博客园_files\2011-02-23-01.jpg" />
+    <Content Include="NHibernate-基本映射Readme_用火狐打开\NHibernate从入门到精通系列%286%29——基本映射 - 刘冬.NET - 博客园_files\24442-20170118152220281-363324784.jpg" />
+    <Content Include="NHibernate-基本映射Readme_用火狐打开\NHibernate从入门到精通系列%286%29——基本映射 - 刘冬.NET - 博客园_files\24442-20170222122838835-309099051.jpg" />
+    <Content Include="NHibernate-基本映射Readme_用火狐打开\NHibernate从入门到精通系列%286%29——基本映射 - 刘冬.NET - 博客园_files\78241-20170104011820003-1226596749.png" />
+    <Content Include="NHibernate-基本映射Readme_用火狐打开\NHibernate从入门到精通系列%286%29——基本映射 - 刘冬.NET - 博客园_files\a.htm" />
+    <Content Include="NHibernate-基本映射Readme_用火狐打开\NHibernate从入门到精通系列%286%29——基本映射 - 刘冬.NET - 博客园_files\a78241.jpg" />
+    <Content Include="NHibernate-基本映射Readme_用火狐打开\NHibernate从入门到精通系列%286%29——基本映射 - 刘冬.NET - 博客园_files\a_002.htm" />
+    <Content Include="NHibernate-基本映射Readme_用火狐打开\NHibernate从入门到精通系列%286%29——基本映射 - 刘冬.NET - 博客园_files\b.png" />
+    <Content Include="NHibernate-基本映射Readme_用火狐打开\NHibernate从入门到精通系列%286%29——基本映射 - 刘冬.NET - 博客园_files\blog-common.css" />
+    <Content Include="NHibernate-基本映射Readme_用火狐打开\NHibernate从入门到精通系列%286%29——基本映射 - 刘冬.NET - 博客园_files\blog-common.js" />
+    <Content Include="NHibernate-基本映射Readme_用火狐打开\NHibernate从入门到精通系列%286%29——基本映射 - 刘冬.NET - 博客园_files\bundle-ClassicBlue-mobile.css" />
+    <Content Include="NHibernate-基本映射Readme_用火狐打开\NHibernate从入门到精通系列%286%29——基本映射 - 刘冬.NET - 博客园_files\bundle-ClassicBlue.css" />
+    <Content Include="NHibernate-基本映射Readme_用火狐打开\NHibernate从入门到精通系列%286%29——基本映射 - 刘冬.NET - 博客园_files\ContractedBlock.gif" />
+    <Content Include="NHibernate-基本映射Readme_用火狐打开\NHibernate从入门到精通系列%286%29——基本映射 - 刘冬.NET - 博客园_files\copycode.gif" />
+    <Content Include="NHibernate-基本映射Readme_用火狐打开\NHibernate从入门到精通系列%286%29——基本映射 - 刘冬.NET - 博客园_files\encoder.js" />
+    <Content Include="NHibernate-基本映射Readme_用火狐打开\NHibernate从入门到精通系列%286%29——基本映射 - 刘冬.NET - 博客园_files\ExpandedBlockStart.gif" />
+    <Content Include="NHibernate-基本映射Readme_用火狐打开\NHibernate从入门到精通系列%286%29——基本映射 - 刘冬.NET - 博客园_files\hc.css" />
+    <Content Include="NHibernate-基本映射Readme_用火狐打开\NHibernate从入门到精通系列%286%29——基本映射 - 刘冬.NET - 博客园_files\icon_weibo_24.png" />
+    <Content Include="NHibernate-基本映射Readme_用火狐打开\NHibernate从入门到精通系列%286%29——基本映射 - 刘冬.NET - 博客园_files\img.gif" />
+    <Content Include="NHibernate-基本映射Readme_用火狐打开\NHibernate从入门到精通系列%286%29——基本映射 - 刘冬.NET - 博客园_files\indent.png" />
+    <Content Include="NHibernate-基本映射Readme_用火狐打开\NHibernate从入门到精通系列%286%29——基本映射 - 刘冬.NET - 博客园_files\index2.png" />
+    <Content Include="NHibernate-基本映射Readme_用火狐打开\NHibernate从入门到精通系列%286%29——基本映射 - 刘冬.NET - 博客园_files\InsertCode.gif" />
+    <Content Include="NHibernate-基本映射Readme_用火狐打开\NHibernate从入门到精通系列%286%29——基本映射 - 刘冬.NET - 博客园_files\jquery.js" />
+    <Content Include="NHibernate-基本映射Readme_用火狐打开\NHibernate从入门到精通系列%286%29——基本映射 - 刘冬.NET - 博客园_files\lk.png" />
+    <Content Include="NHibernate-基本映射Readme_用火狐打开\NHibernate从入门到精通系列%286%29——基本映射 - 刘冬.NET - 博客园_files\logo.gif" />
+    <Content Include="NHibernate-基本映射Readme_用火狐打开\NHibernate从入门到精通系列%286%29——基本映射 - 刘冬.NET - 博客园_files\pic1.gif" />
+    <Content Include="NHibernate-基本映射Readme_用火狐打开\NHibernate从入门到精通系列%286%29——基本映射 - 刘冬.NET - 博客园_files\quote.gif" />
+    <Content Include="NHibernate-基本映射Readme_用火狐打开\NHibernate从入门到精通系列%286%29——基本映射 - 刘冬.NET - 博客园_files\u78241.jpg" />
+    <Content Include="NHibernate-基本映射Readme_用火狐打开\NHibernate从入门到精通系列%286%29——基本映射 - 刘冬.NET - 博客园_files\wechat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="NHibernate-基本映射Readme_用火狐打开\NHibernate从入门到精通系列%286%29——基本映射 - 刘冬.NET - 博客园_files\core.php" />
+    <None Include="NHibernate-基本映射Readme_用火狐打开\NHibernate从入门到精通系列%286%29——基本映射 - 刘冬.NET - 博客园_files\stat.php" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
