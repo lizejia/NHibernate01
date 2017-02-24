@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dao", "Dao\Dao.csproj", "{1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{939254B3-A188-4964-A02F-0BE4595528C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateLifeCycle", "NHibernateLifeCycle\NHibernateLifeCycle.csproj", "{D7D2F70A-E0B2-4198-A5A0-E1F0E26100E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{939254B3-A188-4964-A02F-0BE4595528C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{939254B3-A188-4964-A02F-0BE4595528C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{939254B3-A188-4964-A02F-0BE4595528C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7D2F70A-E0B2-4198-A5A0-E1F0E26100E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7D2F70A-E0B2-4198-A5A0-E1F0E26100E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7D2F70A-E0B2-4198-A5A0-E1F0E26100E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7D2F70A-E0B2-4198-A5A0-E1F0E26100E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
